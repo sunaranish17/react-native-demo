@@ -27,7 +27,7 @@ const App = () => {
             data={todos}
             renderItem={({ item }) => (
               // <Text>{item?.text}</Text>
-              <ToDoItem item={item} />
+              <ToDoItem item={item} pressHandler={pressHandler} />
             )}
           />
         </View>
